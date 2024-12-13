@@ -105,6 +105,15 @@
   justify-content: space-between;
   align-items: center;
 }
+
+.items-list-edit .task-label {
+  display: none;
+}
+
+.items-list-edit .hidden-input {
+  display: inline-block;
+}
+
 .items-list > * {
   vertical-align: middle;
 }
@@ -131,8 +140,12 @@
 }
 
 /* Completed */
-.label-complete-task {
+.label-complete-task .task{
   text-decoration: line-through;
+  color: #888;
+}
+.label-complete-task .text-input{
+  text-decoration: none;
   color: #888;
 }
 
@@ -148,4 +161,9 @@
 
 .edit-mode .task-label {
   display: none;
+}
+
+.completed-tasks{
+  margin: 0px;
+  padding: 0px;
 }

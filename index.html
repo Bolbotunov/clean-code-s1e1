@@ -30,14 +30,14 @@
         <ul id="incomplete-tasks">
           <li class="task-list items-list">
             <input type="checkbox" class="checkbox-input input">
-            <label class="task">Pay Bills</label>
+            <label class="task task-label">Pay Bills</label>
             <input type="text" class="task text-input input hidden-input">
             <button class="edit-task button">Edit</button>
             <button class="delete-task button">
              <img src="./remove.svg" class="delete-img" alt="delete-image-item">
             </button>
           </li>
-          <li class="edit-mode items-list">
+          <li class="task-list items-list-edit items-list">
             <input type="checkbox" class="checkbox-input input">
             <label class="task task-label">Go Shopping</label>
             <input type="text" value="Go Shopping" class="task text-input input hidden-input">
@@ -50,10 +50,10 @@
       </section>
       <section class="complete-section">
         <h3 class="section-title">Completed</h3>
-        <ul id="completed-tasks">
-          <li class="task-list items-list">
+        <ul class="completed-tasks">
+          <li class="task-list items-list label-complete-task">
             <input type="checkbox" checked class="checkbox-input input">
-            <label class="task label-complete-task">See the Doctor</label>
+            <label class="task task-label">See the Doctor</label>
             <input type="text" class="task text-input input hidden-input">
             <button class="edit-task button">Edit</button>
             <button class="delete-task button">
